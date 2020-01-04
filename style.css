@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, sans-serif;
+    color: #686868;
+}
+
+h2, h3, h4{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.color1{
+    color: #FECA07;
+}
+
+.color2{
+    color: #504c3b;
+}
+
+hr{
+    border: 1px solid
+}
+
+h1{
+    font-weight: normal;
+}
+
+h3{
+    color: #000;    
+}
