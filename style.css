@@ -27,3 +27,31 @@ h1{
 h3{
     color: #000;    
 }
+
+/* Gauche */
+
+#left_side h2{
+    text-align: center;
+    background-color: #404040;
+}
+
+#left_side{
+    background-color: #FECA07;
+    width: 27%;
+    margin-right: 7%;
+    min-height: 100%;
+}
+
+#left_side div{
+    display: flex;
+    flex-direction: column;
+}
+
+#loisirs_icons{
+    text-align: center;
+}
+
+#left_side, #right_side{
+    display: inline-block;
+    vertical-align: top;
+}
