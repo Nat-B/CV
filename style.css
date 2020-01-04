@@ -55,3 +55,71 @@ h3{
     display: inline-block;
     vertical-align: top;
 }
+
+/* Droite */
+
+#right_side{
+    width: 60%;
+}
+
+#formation1, #formation2{
+    display: flex;  
+}
+
+.formation_liste1{
+    flex: 1;
+}
+
+.formation_text1{
+    flex: 3;
+    margin-left: 15%;
+}
+
+.formation_liste2{
+    flex: 1;
+}
+
+.formation_text2{
+    flex: 3;
+    margin-left: 15%;
+}
+
+#exp1, #exp2, #exp3{
+    display: flex;  
+}
+
+.exp_liste1{
+    flex: 1;
+}
+
+.exp_text1{
+    flex: 3;
+    margin-left: 15%;
+}
+
+.exp_liste2{
+    flex: 1;
+}
+
+.exp_text2{
+    flex: 3;
+    margin-left: 15%;
+}
+
+.exp_liste3{
+    flex: 1;
+}
+
+.exp_text3{
+    flex: 3;
+    margin-left: 15%;
+}
+
+#recommandations{
+    display: flex;
+}  
+
+.reco1{
+    margin-right: 40%;
+}
+
