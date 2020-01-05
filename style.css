@@ -33,22 +33,22 @@ h3{
 #left_side h2{
     text-align: center;
     background-color: #404040;
+    outline: solid #404040 8px;
 }
 
 #left_side{
     background-color: #FECA07;
     width: 27%;
     margin-right: 7%;
-    min-height: 100%;
-}
-
-#left_side div{
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    outline: solid #FECA07 8px;
 }
 
 #loisirs_icons{
     text-align: center;
+    font-size: 3em;
 }
 
 #left_side, #right_side{
