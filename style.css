@@ -1,6 +1,13 @@
+html{
+    height: 100%;
+}
+
 body{
     font-family: Arial, sans-serif;
     color: #686868;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 h2, h3, h4{
@@ -22,18 +29,31 @@ hr{
 
 h1{
     font-weight: normal;
+    font-size: 3em;
 }
 
 h3{
     color: #000;    
 }
 
+h1 + p{
+    font-weight: bold;
+    font-size: 1.5em;
+    position: relative;
+    bottom: 28px;
+}
+
+h1, .skip{
+    margin-top: 80px;
+}
+
+
 /* Gauche */
 
 #left_side h2{
     text-align: center;
     background-color: #404040;
-    outline: solid #404040 8px;
+    outline: solid #404040 5px;
 }
 
 #left_side{
@@ -43,7 +63,7 @@ h3{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    outline: solid #FECA07 8px;
+    outline: solid #FECA07 5px;
 }
 
 #contact_text, #photo, #loisirs_icons{
@@ -131,21 +151,7 @@ h3{
     margin-right: 40%;
 }
 
-h1 + p{
-    font-weight: bold;
-
-}
-
 .underline{
-    tex t-decoration: underline #FECA07;
     border-bottom: 2px solid #FECA07;
     padding-bottom: 3px;
-}
-
-. hr_special{
-    max-width: 47px;
-    position: relative;
-    right: 47.8%;
-    bottom: 16px;
-        text-underline-position: under;
 }
