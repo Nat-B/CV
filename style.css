@@ -46,6 +46,14 @@ h3{
     outline: solid #FECA07 8px;
 }
 
+#contact_text, #photo, #loisirs_icons{
+    margin: 10% 10% 10% 10%;
+}
+
+#moi_text{
+    margin: 10% 10% 140% 10%;
+}
+
 #loisirs_icons{
     text-align: center;
     font-size: 3em;
@@ -123,3 +131,21 @@ h3{
     margin-right: 40%;
 }
 
+h1 + p{
+    font-weight: bold;
+
+}
+
+.underline{
+    tex t-decoration: underline #FECA07;
+    border-bottom: 2px solid #FECA07;
+    padding-bottom: 3px;
+}
+
+. hr_special{
+    max-width: 47px;
+    position: relative;
+    right: 47.8%;
+    bottom: 16px;
+        text-underline-position: under;
+}
