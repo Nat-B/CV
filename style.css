@@ -28,7 +28,12 @@ h1{
 }
 
 h3{
-    color: #000;    
+    color: #000;
+    font-size: 1.6em;  
+}
+
+h4{
+    font-size: 1.2em;
 }
 
 h1 + p{
@@ -49,7 +54,7 @@ img{
     border: 5px #daaf12 solid;
     border-radius: 50%;  
     height: 230px;
-    width: 230px;   
+    width: 230px; 
 }
 
 #photo{ 
@@ -104,6 +109,13 @@ img{
 }
 
 /* Droite */
+
+h3 i{
+    font-size: 1.6em;
+    position: relative;
+    top: 15px;
+    margin-right: 50px;  
+}
 
 #right_side{
     width: 60%;
