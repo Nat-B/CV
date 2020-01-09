@@ -1,13 +1,8 @@
-html{
-    height: 100%;
-}
-
 body{
     font-family: 'Roboto', Arial, sans-serif;
     color: #686868;
-    min-height: 100%;
     margin: 0;
-    padding: 0;
+    display: flex;
 }
 
 h2, h3, h4{
@@ -50,38 +45,62 @@ h1, .skip{
 
 /* Gauche */
 
+img{
+    border: 5px #daaf12 solid;
+    border-radius: 50%;  
+    height: 230px;
+    width: 230px;   
+}
+
+#photo{ 
+    text-align: center;
+ }
+
 #left_side h2{
     text-align: center;
     background-color: #404040;
-    outline: solid #404040 5px;
+    padding: 5px 0 5px 0;
 }
 
 #left_side{
     background-color: #FECA07;
-    width: 27%;
-    margin-right: 7%;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    outline: solid #FECA07 5px;
+    width: 27%;
+    margin-right: 7%;
 }
 
-#contact_text, #photo, #loisirs_icons{
-    margin: 10% 10% 10% 10%;
+#contact_text, #moi_text{
+    text-align: justify;
+    margin: 8% 8% 8% 8%;
 }
 
-#moi_text{
-    margin: 10% 10% 140% 10%;
+#contact, #photo{
+    fle x-grow: 1;
 }
 
-#loisirs_icons{
-    text-align: center;
-    font-size: 3em;
+#moi{
+    flex-grow: 2;
 }
 
-#left_side, #right_side{
-    display: inline-block;
-    vertical-align: top;
+#loisirs{
+    flex-grow: 0;
+}
+
+#loisirs_icons{ 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+#loisirs_icons .fas{
+    font-size: 4em;
+    border: 2px #504c3b solid;
+    padding: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
 }
 
 /* Droite */
@@ -153,5 +172,5 @@ h1, .skip{
 
 .underline{
     border-bottom: 2px solid #FECA07;
-    padding-bottom: 3px;
+    padding-bottom: 2px;
 }
