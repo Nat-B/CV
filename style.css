@@ -71,7 +71,7 @@ img{
 #loisirs_icons .fas{
     font-size: 60px;
     border: 2px #504c3b solid;
-    padding: 15px;
+    padding: 10px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
@@ -131,8 +131,8 @@ h3 i{
 }
 
 .formation_text1, .formation_text2, .exp_text1, .exp_text2, .exp_text3{
-    flex: 3;
-    margin-left: 15%;
+    flex: 2;
+    margin-left: 5%;
     padding-top: 1.5%;
 }
 
@@ -143,6 +143,10 @@ h3 i{
 .underline{
     border-bottom: 2px solid #FECA07;
     padding-bottom: 2px;
+}
+
+#recommandations{
+    margin-bottom: 50px;
 }
 
 @media all and (max-device-width: 1200px){
@@ -256,6 +260,6 @@ h3 i{
 
     .dot{
         position: relative;
-        right: 70px;
+        right: 80px;
     }
 }
