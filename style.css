@@ -179,13 +179,9 @@ h3 i{
     #recommandations{
         justify-content: space-around;
     }
-
-    .h3_responsive{
-        display: flex;
-    }
 }
 
-@media all and (max-device-width: 720px){
+@media all and (max-device-width: 740px){
 
     body{
         flex-direction: column;
@@ -229,20 +225,13 @@ h3 i{
         color: #000;
     }
 
-    .reco1{
-        margin-right: 0;
-    }
-
     #recommandations{
         justify-content: space-between;
     }
 
-    .h3_responsive{
-        display: flex;
-    }
-
     h3 i{
         margin-right: 15px;  
+        top: 0;
     }
 
     h3{
