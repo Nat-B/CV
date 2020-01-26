@@ -226,7 +226,11 @@ h3 i{
     }
 
     #recommandations{
-        justify-content: space-between;
+        justify-content: space-around;
+    }
+
+    .reco1, .reco2{
+        width: 50%;
     }
 
     h3 i{
