@@ -5,6 +5,10 @@ body{
     display: flex;
 }
 
+ul {
+    list-style-type: none;
+  }
+
 h2, h3, h4{
     text-transform: uppercase;
     font-weight: bold;
@@ -27,21 +31,21 @@ img{
     width: 230px; 
 }
 
-#photo{ 
+.photo{ 
     text-align: center;
  }
 
- h5, h5 + p{
+h5, h5 + p{
     display: none;
  }
 
-#left_side h2{
+.left_side h2{
     text-align: center;
     background-color: #404040;
     padding: 7px 0 7px 0;
 }
 
-#left_side{
+.left_side{
     background-color: #FECA07;
     display: flex;
     flex-direction: column;
@@ -49,26 +53,26 @@ img{
     margin-right: 7%;
 }
 
-#contact_text, #moi_text{
+.left_text{
     text-align: justify;
     margin: 8% 8% 8% 8%;
 }
 
-#moi{
+.moi{
     flex-grow: 2;
 }
 
-#loisirs{
+.loisirs{
     flex-grow: 0;
 }
 
-#loisirs_icons{ 
+.loisirs_icons{ 
    display: flex;
    flex-direction: row;
    justify-content: space-around;
 }
 
-#loisirs_icons .fas{
+.loisirs_icons .fas{
     font-size: 60px;
     border: 2px #504c3b solid;
     padding: 10px;
@@ -118,19 +122,19 @@ h3 i{
     position: relative;
     top: 34px;
 }
-#right_side{
+.right_side{
     width: 60%;
 }
 
-#formation1, #formation2, #exp1, #exp2, #exp3, #recommandations{
+.formation, .exp, .recommandations{
     display: flex;  
 }
 
-.formation_liste1, .formation_liste2, .exp_liste1, .exp_liste2, .exp_liste3{
+.liste{
     flex: 1;
 }
 
-.formation_text1, .formation_text2, .exp_text1, .exp_text2, .exp_text3{
+.right_text{
     flex: 2;
     margin-left: 5%;
     padding-top: 1.5%;
@@ -145,30 +149,30 @@ h3 i{
     padding-bottom: 2px;
 }
 
-#recommandations{
+.recommandations{
     margin-bottom: 50px;
 }
 
 @media all and (max-device-width: 1200px){
 
-    #right_side{
+    .right_side{
         padding: 0px 5px 0px 5px;
         flex-wrap: wrap;
     }
 
-    #left_side{
+    .left_side{
         width: 40%;
         margin-right: 2%;
     }
 
-    #loisirs_icons .fas{
+    .loisirs_icons .fas{
         font-size: 50px;
     }
-    #formation1, #formation2, #exp1, #exp2, #exp3{
+    .formation, .exp{
         flex-direction: column; 
     }
 
-    .formation_text1, .formation_text2, .exp_text1, .exp_text2, .exp_text3{
+    .right_text{
         margin-left: 7%;
     }
 
@@ -176,7 +180,7 @@ h3 i{
         margin-right: 0;
     }
 
-    #recommandations{
+    .recommandations{
         justify-content: space-around;
     }
 }
@@ -187,12 +191,12 @@ h3 i{
         flex-direction: column;
     }
 
-    #right_side{
+    .right_side{
         width: auto;
         padding: 0px 5px 0px 5px;
     }
 
-    #left_side{
+    .left_side{
         width: auto;
         margin-right: 0;
     }
@@ -204,7 +208,7 @@ h3 i{
         width: 190px; 
     }
 
-    #titre_right{
+    .titre_right{
         display: none;
     }
 
@@ -225,7 +229,7 @@ h3 i{
         color: #000;
     }
 
-    #recommandations{
+    .recommandations{
         justify-content: space-around;
     }
 
@@ -242,13 +246,15 @@ h3 i{
         text-align: center;
     }
 
-    #formation1, #formation2, #exp1, #exp2, #exp3{
+    .formation, .exp{
         flex-direction: column; 
         text-align: center;
     }
 
-    .formation_text1, .formation_text2, .exp_text1, .exp_text2, .exp_text3{
+    .right_text{
         margin-left: 0;
+        text-align: left;
+        margin-left: 2%;
     }
 
     .dot{
