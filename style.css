@@ -235,9 +235,6 @@ h3 i{
 
     .reco1, .reco2{
         width: 50%;
-    }
-
-    .reco2{
         word-wrap: break-word;
     }
 
