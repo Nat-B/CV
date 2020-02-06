@@ -222,7 +222,7 @@ h3 i{
     }
 
     h1, .skip{
-    margin-top: 0;
+        margin-top: 0;
     }
 
     h5 .color1{
@@ -235,6 +235,10 @@ h3 i{
 
     .reco1, .reco2{
         width: 50%;
+    }
+
+    .reco2{
+        word-wrap: break-word;
     }
 
     h3 i{
